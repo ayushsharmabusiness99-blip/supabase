@@ -1,0 +1,7 @@
+tunnel: supabase-db
+credentials-file: C:\Users\xlyre\.cloudflared\a94022fc-100d-4eda-9090-ceebba7b9b3e.json
+
+ingress:
+  - hostname: database.m0x.online
+    service: http://localhost:8000
+  - service: http_status:404
